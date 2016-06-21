@@ -3,9 +3,9 @@ form {
     height: 552px;
     background: url("images/form-bg.png");
     background-size: 100%;
-    float: right;
-    margin-top: 225px;
-    margin-right: 170px;
+    float: inherit;
+    margin-top: 200px;
+    margin-left: 550px;
 }
 
 input {
@@ -23,13 +23,23 @@ body {
     background-size: 100%;
 }
 
+.dark_side {
+    background: url("images/kylo.png") center;
+    width: 1132px;
+    height: 850px;
+}
+
 .order {
     font-family: Ubuntu;
     color: white;
     margin-left: 35px;
-    background: url("images/kylo.png") center;
-    width: 1132px;
-    height: 850px;
+    display: none;
+    position: fixed;
+}
+
+.order:target {
+    display: block;
+    pointer-events: auto;
 }
 
 .tit {

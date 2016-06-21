@@ -9,7 +9,7 @@ form {
 }
 
 input {
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-size: 18px;
     background-color: #1d1b1c;
     color: #a38e8e;
@@ -30,7 +30,7 @@ body {
 }
 
 .order {
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     color: white;
     margin-left: 35px;
     display: none;
@@ -75,11 +75,11 @@ body {
     font-size: 16px;
     margin-top: 15px;
     margin-left: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .button {
     padding-left: 110px;
-    padding-bottom: 50px;
+    /*padding-bottom: 60px;*/
 }
 
 .separ {

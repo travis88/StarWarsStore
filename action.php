@@ -1,1 +1,5 @@
-<?php echo htmlspecialchars($_GET['name']); ?>
+<?php
+echo $_GET['name'];
+echo $_REQUEST['email'];
+echo $_GET['phone']
+?>

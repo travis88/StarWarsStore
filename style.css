@@ -23,6 +23,10 @@ body {
     background-size: 100%;
 }
 
+a {
+    float: right;
+}
+
 .dark_side {
     background: url("images/kylo.png") center;
     width: 1132px;

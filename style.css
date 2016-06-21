@@ -1,0 +1,70 @@
+form {
+    width: 375px;
+    height: 552px;
+    background: url("images/form-bg.png");
+    /*vertical-align: top;*/
+    /*margin-right: 50px;*/
+    float: right;
+    margin-top: 225px;
+    margin-right: 170px;
+}
+
+input {
+    font-family: Ubuntu;
+    font-size: 18px;
+    background-color: #1d1b1c;
+    color: #a38e8e;
+    border: none;
+}
+
+.order {
+    font-family: Ubuntu;
+    color: white;
+    margin-left: 35px;
+    background: url("images/kylo.png") center;
+    width: 1132px;
+    height: 850px;
+}
+
+.tit {
+    padding-top: 24px;
+    height: 70px;
+    text-align: center;
+    font-size: 20.5px;
+    color: #d53017;
+}
+
+.name {
+    height: 90px;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+.email {
+    height: 102px;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+.phone {
+    height: 102px;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+.wish {
+    height: 61px;
+    font-size: 16px;
+    margin-left: 35px;
+}
+.button {
+    padding-left: 115px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    /*border-top: 1px solid wheat;*/
+}
+
+body {
+    background: url("images/background.png");
+    background-size: 100%;
+}

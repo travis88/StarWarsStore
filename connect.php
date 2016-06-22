@@ -1,4 +1,6 @@
+
 <?php
+//Создаём соединение для подключения к БД
 error_reporting(0);
 $db_host = 'localhost';
 $db_user = 'root';
